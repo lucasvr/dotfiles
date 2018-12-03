@@ -1,0 +1,51 @@
+Xcursor.theme: neon
+Xcursor.size: 24
+
+URxvt.clipboard.autocopy: true
+URxvt.keysym.S-Insert: \033[2$
+URxvt.keysym.C-S-Up: \033[1;6A
+URxvt.keysym.C-S-Down: \033[1;6B
+URxvt.keysym.C-S-Right: \033[1;6C
+URxvt.keysym.C-S-Left: \033[1;6D
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.colorBD: #fff
+URxvt.colorIT: #ddf
+URxvt.scrollColor: #508080
+URxvt*color3: #ffff30
+URxvt*color12: #3030ff
+! URxvt.letterSpace: 0
+
+URxvt.perl-ext-common: default,matcher,tabbedex,font-size
+! tabbedex settings
+URxvt.tabbed.no-tabbedex-keys: yes
+URxvt.tabbed.tabbar-fg:        2
+URxvt.tabbed.tabbar-bg:        0
+URxvt.tabbed.tab-fg:           3
+URxvt.tabbed.tab-bg:           0
+URxvt.tabbed.autohide:         yes
+URxvt.tabbed.new-button:       no
+URxvt.tabbed.title:            yes
+URxvt.tabbed.title-fg:         3
+URxvt.tabbed.title-bg:         0
+URxvt.keysym.C-A-t:            perl:tabbedex:new_tab
+URxvt.keysym.C-A-Right:        perl:tabbedex:next_tab
+URxvt.keysym.C-A-Left:         perl:tabbedex:prev_tab
+URxvt.keysym.C-A-S-Right:      perl:tabbedex:move_tab_right
+URxvt.keysym.C-A-S-Left:       perl:tabbedex:move_tab_left
+! font-size (ctrl+, ctrl-)
+URxvt.keysym.C-equal:          perl:font-size:incglobal
+URxvt.keysym.C-minus:          perl:font-size:decglobal
+URxvt.keysym.C-k:              perl:font-size:increase
+URxvt.font-size.step:          1
+! general font settings
+URxvt*font:                    xft:Inconsolata for Powerline:size=10
+! input method
+URxvt.imLocale:                pt_BR.utf8
+
+
+Xft.antialias:                 true
+Xft.hinting:                   true
+Xft.rgba:                      rgb
+Xft.hintstyle:                 hintfull
+Xft.dpi:                       96

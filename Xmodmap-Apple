@@ -1,0 +1,11 @@
+! https://wiki.archlinux.org/index.php/Apple_Keyboard
+keycode 144 = XF86AudioPrev
+keycode 162 = XF86AudioPlay
+keycode 153 = XF86AudioNext
+
+! apostrophe (') and quotedbl (") characters (non-us_intl keyboards)
+!keycode  48 = apostrophe quotedbl
+
+! apostrophe (') and quotedbl (") characters (us_intl keyboards)
+keycode  48 = dead_acute quotedbl
+! keycode  48 = dead_acute dead_diaeresis
